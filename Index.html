@@ -7,34 +7,68 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="header-container">
-            <h1>🌟 Frases Filosóficas 🌟</h1>
-            <p>Inspire-se com pensamentos que transformam.</p>
+    <!-- Navegação -->
+    <nav>
+        <div class="logo">Frases Filosóficas</div>
+        <ul>
+            <li><a href="#home">Início</a></li>
+            <li><a href="#quotes">Frases</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#contact">Contato</a></li>
+        </ul>
+    </nav>
+
+    <!-- Seção de Início -->
+    <header id="home">
+        <div class="hero">
+            <h1>🌟 Inspiração Filosófica 🌟</h1>
+            <p>Frases que tocam a alma e despertam o pensamento.</p>
+            <a href="#quotes" class="btn">Explore Frases</a>
         </div>
     </header>
-    <main>
-        <section class="quote">
-            <blockquote>
-                "A vida não é medida pelo número de vezes que respiramos, mas pelos momentos que nos tiram o fôlego."
-            </blockquote>
-            <cite>- Maya Angelou</cite>
-        </section>
-        <section class="quote">
-            <blockquote>
-                "Penso, logo existo."
-            </blockquote>
-            <cite>- René Descartes</cite>
-        </section>
-        <section class="quote">
-            <blockquote>
-                "O que sabemos é uma gota; o que ignoramos é um oceano."
-            </blockquote>
-            <cite>- Isaac Newton</cite>
-        </section>
-    </main>
+
+    <!-- Seção de Frases -->
+    <section id="quotes">
+        <h2>✨ Frases Inspiradoras ✨</h2>
+        <div class="grid">
+            <div class="quote-card">
+                <p>"A vida não é medida pelo número de vezes que respiramos, mas pelos momentos que nos tiram o fôlego."</p>
+                <span>- Maya Angelou</span>
+            </div>
+            <div class="quote-card">
+                <p>"Penso, logo existo."</p>
+                <span>- René Descartes</span>
+            </div>
+            <div class="quote-card">
+                <p>"O que sabemos é uma gota; o que ignoramos é um oceano."</p>
+                <span>- Isaac Newton</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section id="about">
+        <h2>Sobre o Site</h2>
+        <p>
+            Este site foi criado para compartilhar as melhores frases filosóficas de grandes pensadores. 
+            Nossa missão é inspirar você com ideias que ampliam horizontes e desafiam percepções.
+        </p>
+    </section>
+
+    <!-- Seção de Contato -->
+    <section id="contact">
+        <h2>Entre em Contato</h2>
+        <form>
+            <input type="text" placeholder="Seu Nome" required>
+            <input type="email" placeholder="Seu E-mail" required>
+            <textarea placeholder="Sua Mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Rodapé -->
     <footer>
-        <p>&copy; 2024 Frases Filosóficas. Criado com ❤️ para inspirar você.</p>
+        <p>&copy; 2024 Frases Filosóficas. Todos os direitos reservados.</p>
     </footer>
 </body>
 </html>
