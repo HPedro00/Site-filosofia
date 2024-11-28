@@ -1,88 +1,48 @@
-/* Reset básico */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
+/* Estilos gerais */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
     color: #333;
     line-height: 1.6;
-    padding: 20px;
 }
 
 /* Cabeçalho */
 header {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #222;
+    color: #fff;
     text-align: center;
-    padding: 20px;
-    border-radius: 10px;
+    padding: 1rem 0;
 }
 
 header h1 {
-    font-size: 2.5em;
-}
-
-header p {
-    font-size: 1.2em;
-}
-
-/* Seção principal de conteúdo */
-.content {
-    margin-top: 30px;
-}
-
-.content h2 {
-    font-size: 2.2em;
-    color: #333;
-    margin-bottom: 10px;
-}
-
-.content p {
-    font-size: 1.2em;
-    color: #555;
-    margin-bottom: 20px;
-}
-
-.content ul {
-    list-style: none;
-}
-
-.content ul li {
-    background-color: #fff;
-    padding: 15px;
-    margin: 10px 0;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.content blockquote {
-    font-style: italic;
-    font-size: 1.2em;
     margin: 0;
+    font-size: 2.5rem;
 }
 
-.content blockquote span {
-    display: block;
-    text-align: right;
-    font-weight: bold;
-    margin-top: 10px;
+/* Área principal */
+main {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
-/* Subtítulo adicional */
-.content h3 {
-    font-size: 1.8em;
-    color: #333;
-    margin-top: 30px;
+/* Estilo das frases */
+.quote {
+    background-color: #fff;
+    border-left: 4px solid #4CAF50;
+    margin: 1.5rem 0;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-style: italic;
+    font-size: 1.2rem;
 }
 
 /* Rodapé */
 footer {
     text-align: center;
-    margin-top: 40px;
-    font-size: 1em;
-    color: #777;
-}
+    padding: 1rem 0;
+    background-color: #222;
+    color: #fff;
+   
